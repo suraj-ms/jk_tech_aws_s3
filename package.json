@@ -1,0 +1,19 @@
+{
+  "name": "jk-tech",
+  "version": "1.0.0",
+  "description": "Build a AWS S3 like service and perform CRUD operation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Node",
+    "js"
+  ],
+  "author": "Suraj MS",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.563.0",
+    "@aws-sdk/s3-request-presigner": "^3.563.0"
+  }
+}
